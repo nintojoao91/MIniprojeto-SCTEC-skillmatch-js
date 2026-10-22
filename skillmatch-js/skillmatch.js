@@ -1,5 +1,10 @@
-const candidato = require("./dados/candidato");
+const perfil= require("./classes/Perfil");
+const candidatoExtendPerfil= require("./classes/CandidatoExtendPerfil");
+const candidato = require("./classes/dadosCandidato");
 const carregarVagas = require("./servicos/carregarVagas");
+
+
+
 
 const {
     analisarVaga,

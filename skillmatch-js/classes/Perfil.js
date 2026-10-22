@@ -7,12 +7,10 @@ class Perfil {
     }
 
     apresentarPerfil() {
-        return `
-Nome: ${this.nome}
+        return `Nome: ${this.nome}
 Área de interesse: ${this.areaInteresse}
 Habilidades: ${this.habilidades.join(", ")}
-Experiência: ${this.experiencia}
-`;
+Experiência: ${this.experiencia}`;
     }
 }
 
